@@ -1,0 +1,172 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color:black;
+}
+
+header {
+	padding:27px;
+	background-color:#666;
+	background-repeat: no-repeat;
+	background-image: linear-gradient(#444, #000);
+
+}
+
+#intro {
+	width:50%;
+	text-align:left;
+	padding-left: 115px;
+	color:#999767;
+}
+#desc {
+	color:white;
+	position:relative;
+	text-align:left;
+	width:50%;
+	left: 40px;
+}
+section.intro {
+	background-image: url(715855.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 155px 0px;
+	font-family: 'Oswald', sans-serif;
+}
+p {	
+	text-align: center;
+	color: white;
+	width: 100%;
+	font-size: 50px;
+	font-family: 'Oswald', sans-serif;
+}
+h1 {
+	text-align: center;
+	color: white;
+	width: 100%;
+	font-size: 75px;
+	font-family: 'Oswald', sans-serif;
+}
+section.music {
+	text-align: right;
+	background-color:black;
+	background-image: url(rainywindow2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 100px;
+	width: 100%;	
+}
+td {
+	padding:90px;
+	font-size: 50px;
+	font-family: 'Oswald', sans-serif;
+}
+#buynow {
+	color:blue;
+	text-decoration:underline;
+}
+.music-item {
+	display: flex;
+	margin-bottom: 50px;
+}
+.imagessc{
+	/*position:relative;
+	left:200px;*/
+}
+section.tour {
+	background-color:black;
+	color:#F2FF4A;
+	font-size:75px;
+	font-family: 'Oswald', sans-serif;
+}
+.tour-headline {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.tour-headline img {
+	width: 400px;
+}
+.tourdates {
+	width: auto;
+	padding-left: 20px;
+	color:#F2FF4A;
+	font-size:75px;
+	/*text-align: center;*/
+	font-family: 'Oswald', sans-serif;
+}
+.sm{
+	padding-right:50px;
+	padding-left:50px;
+}
+.socialh1 {
+	font-size:50px;
+	text-align:center;
+	color:#F2FF4A;
+	width:100%;
+	font-family: 'Oswald', sans-serif;
+	font-size:60px;
+}
+
+section.social {
+	width:100%;
+	background-color:black;
+	text-align: center;
+	/*font-size:250px;*/
+	padding:150px;
+}
+section.social div {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+section.social a {
+	text-decoration: none;
+	margin-bottom: 50px;
+}
+
+section.sign-up {
+	background-image: url(lastphoto.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 100px 0;
+	width:100%;
+	position:relative;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+}
+h3#signup {
+	padding-top: 350px;
+	color: yellow;
+	font-size: 36px;
+}
+
+form {
+	padding-top: 200px;
+	padding-bottom:200px;
+	margin: 0 auto;
+	width: 300px;
+}
+
+form input {
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 20px;
+	border: none;
+	background-color: rgba(255, 255, 255, .3);
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+}
+form input::placeholder {
+	color: white;
+}
+
+form input[type=button] {
+	background-color: white;
+	color: black
+}
